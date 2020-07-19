@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #282a36;                     
+}
+
+.links {
+    background: rgba(0, 0, 0, 0.1);
+    /*display: flex;
+      justify-content: space-between;*/
+    padding: 32px;  
+    text-align: center;
+    
+}
+
+header div a  {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 30px;
+}
+ 
+header div a:hover{
+    color:#50fa7b;
+    transition: color 400ms;
+}
